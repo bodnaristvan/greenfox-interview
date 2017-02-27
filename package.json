@@ -1,0 +1,17 @@
+{
+  "name": "greenfox-interviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --watch"
+  },
+  "author": "Bodnar Istvan <istvan.bodnar@gmail.com> (http://bodnaristvan.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
